@@ -1,0 +1,31 @@
+{
+  "name": "layout-designer-project-58",
+  "version": "1.0.0",
+  "description": "HTML and CSS hexlet pet project",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianproletov/layout-designer-project-58.git"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.0",
+    "stylelint": "^14.2.0",
+    "stylelint-config-rational-order": "^0.0.4",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.1.0",
+    "surge": "^0.9.0"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "hexlet"
+  ],
+  "author": "ian proletov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianproletov/layout-designer-project-58/issues"
+  },
+  "homepage": "https://github.com/ianproletov/layout-designer-project-58#readme"
+}
