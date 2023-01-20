@@ -1,3 +1,20 @@
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url("../fonts/Neucha-Regular.ttf");
+}
+
+body {
+  color: #2a2626;
+  font-size: 16px;
+  font-family: OpenSans, sans-serif;
+  line-height: 1.6em;
+}
+
 .hello {
   display: block;
   color: #fff;
