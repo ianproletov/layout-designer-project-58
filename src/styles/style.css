@@ -8,6 +8,22 @@
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
+:root {
+  --white: #fff;
+  --translucent-white: #d7ccc0;
+  --bright: #f5f4f0;
+  --basic-color: #fe8a02;
+  --basic-dark: #42413c;
+  --dark: #2a2626;
+  --translucent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+  --header-lineheight: 1.2em;
+  --h1-fontsize: 72px;
+  --h2-fontsize: 60px;
+  --h3-fontsize: 34px;
+}
+
 body {
   color: #2a2626;
   font-size: 16px;
@@ -15,7 +31,14 @@ body {
   line-height: 1.6em;
 }
 
-.hello {
-  display: block;
-  color: #fff;
+h1 {
+  color: var(--blue);
+  font-size: var(--h1-fontsize);
+}
+
+.section-item {
+  display: flex;
+  justify-content: center;
+  max-width: 1110px;
+  padding: 100px 0;
 }
