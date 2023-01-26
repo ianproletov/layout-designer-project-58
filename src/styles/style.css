@@ -45,6 +45,17 @@ h1 {
   line-height: var(--header-lineheight);
 }
 
+h2 {
+  position: relative;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: var(--h2-fontsize);
+  font-family: Neucha, serif;
+  line-height: var(--header-lineheight);
+  text-align: center;
+}
+
 .section-item {
   position: relative;
   display: flex;
@@ -64,6 +75,21 @@ h1 {
   background-size: cover;
   opacity: 0.1;
   content: "";
+}
+
+.video-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -200px;
+  padding: 100px 0;
+}
+
+.video {
+  position: relative;
+  margin-top: 14;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .headline {
