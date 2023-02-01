@@ -162,14 +162,14 @@ h3 {
 }
 
 .card {
+  display: flex;
   width: calc(1110px / 3 - 20px);
   margin-bottom: 20px;
   list-style: none;
-  background-color: var(--white);
+  background-color: var(--light);
 }
 
 .card-headline {
-  box-sizing: border-box;
   width: calc(1110px / 3 - 20px);
   margin-bottom: 20px;
   font-size: 52px;
@@ -182,7 +182,6 @@ h3 {
 .card-link {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   padding: 24px;
   color: var(--dark);
   text-decoration: none;
@@ -193,4 +192,8 @@ h3 {
   font-size: 64px;
   font-family: Neucha, serif;
   line-height: 1;
+}
+
+.m-0 {
+  margin-bottom: 0;
 }
