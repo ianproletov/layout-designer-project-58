@@ -148,6 +148,11 @@ h3 {
   flex: 1;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+}
+
 .button-1 {
   display: block;
   width: max-content;
@@ -219,6 +224,72 @@ h3 {
   text-transform: uppercase;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: columns;
+  justify-content: center;
+}
+
+.submit-part {
+  background-color: var(--main-dark);
+}
+
+.submit-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.submit-form {
+  display: flex;
+  width: 100%;
+}
+
+.input-form {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+
+.input-from::placeholder {
+  opacity: 0.8;
+}
+
+.input-button {
+  position: relative;
+  flex-shrink: 0;
+  width: 65px;
+  height: 50px;
+  background-color: var(--main);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.input-button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/send.svg");
+  transform: translate(-50%, -50%);
+  content: "";
+}
+
+.sign-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 100px;
+  font-size: 14px;
+  text-align: center;
+}
+
 .num {
   padding-bottom: 40px;
   font-size: 64px;
@@ -232,6 +303,11 @@ h3 {
 
 .pt-185 {
   padding-top: 185px;
+}
+
+.p-55 {
+  box-sizing: border-box;
+  padding: 55px;
 }
 
 .s-24 {
@@ -268,4 +344,12 @@ h3 {
 
 .dark {
   color: var(--dark);
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-12 {
+  font-size: 12px;
 }
